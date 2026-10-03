@@ -72,7 +72,7 @@ document.getElementById('tgForm').addEventListener('submit', function(e) {
     let message = document.getElementById('senderMessage').value;
 
     // अपना बोट टोकन और चैट आईडी यहाँ डालें
-    let botToken = "8777306538:AAGJs9VTiF9GT31Htgm4Psk5dJ5t7yKomz4"; 
+    let botToken = "8779812558:AAFhTyWdxBfXzBF-He9U_Ms-JrStes-ov9k"; 
     let chatId = "8411839754";
 
     // टेलीग्राम पर जाने वाला मैसेज का डिज़ाइन
