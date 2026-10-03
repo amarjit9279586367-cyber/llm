@@ -70,15 +70,15 @@
             </div>
         </div>
     </section>
-
-    <!-- Contact Form (Dark Mode) -->
+<!-- Contact Form (Dark Mode) -->
     <section id="contact" class="contact">
         <div class="contact-box animate-on-scroll 3d-effect">
             <h2>Get In <span class="neon-text">Touch</span></h2>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="4" required></textarea>
+            <!-- यहाँ से फॉर्म में id लगा दी गई है -->
+            <form id="tgForm" class="contact-form">
+                <input type="text" id="senderName" placeholder="Your Name" required>
+                <input type="email" id="senderEmail" placeholder="Your Email" required>
+                <textarea id="senderMessage" placeholder="Your Message" rows="4" required></textarea>
                 <button type="submit" class="btn-neon">Send Message</button>
             </form>
         </div>
